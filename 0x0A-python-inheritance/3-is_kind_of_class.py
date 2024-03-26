@@ -1,14 +1,7 @@
 #!/usr/bin/python3
-is_kind_of_class = __import__(#!/usr/bin/python3
-"""
-===================================
-module with method is_kind_of_class
-===================================
-"""
+"""This module defines the is_kind_of_class function"""
 
 
 def is_kind_of_class(obj, a_class):
-    """Method that return True if an object is an instance of a class
-    that inherited from"""
-
+    """returns True or False based on inheritance"""
     return isinstance(obj, a_class)
